@@ -21,6 +21,7 @@
 		FDB23F151985955000A91973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB23EF71985955000A91973 /* UIKit.framework */; };
 		FDB23F1D1985955000A91973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDB23F1B1985955000A91973 /* InfoPlist.strings */; };
 		FDB23F1F1985955000A91973 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB23F1E1985955000A91973 /* Passing_Data_Challenge_SolutionTests.m */; };
+		FDB23F2A1985966300A91973 /* DFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB23F291985966300A91973 /* DFDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FDB23F1A1985955000A91973 /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		FDB23F1C1985955000A91973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDB23F1E1985955000A91973 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		FDB23F281985966300A91973 /* DFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDetailViewController.h; sourceTree = "<group>"; };
+		FDB23F291985966300A91973 /* DFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FDB23F051985955000A91973 /* Main.storyboard */,
 				FDB23F081985955000A91973 /* DFViewController.h */,
 				FDB23F091985955000A91973 /* DFViewController.m */,
+				FDB23F281985966300A91973 /* DFDetailViewController.h */,
+				FDB23F291985966300A91973 /* DFDetailViewController.m */,
 				FDB23F0B1985955000A91973 /* Images.xcassets */,
 				FDB23EFA1985955000A91973 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				FDB23F041985955000A91973 /* DFAppDelegate.m in Sources */,
 				FDB23F0A1985955000A91973 /* DFViewController.m in Sources */,
 				FDB23F001985955000A91973 /* main.m in Sources */,
+				FDB23F2A1985966300A91973 /* DFDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

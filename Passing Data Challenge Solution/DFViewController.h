@@ -10,4 +10,5 @@
 
 @interface DFViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
 @end

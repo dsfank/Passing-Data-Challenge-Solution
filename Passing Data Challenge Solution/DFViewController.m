@@ -7,6 +7,7 @@
 //
 
 #import "DFViewController.h"
+#import "DFDetailViewController.h"
 
 @interface DFViewController ()
 
@@ -26,4 +27,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([sender isKindOfClass:[UIButton class]]) {
+        if ([segue.destinationViewController isKindOfClass:[DFDetailViewController class]]) {
+            DFDetailViewController *nextViewController = segue.destinationViewController;
+            nextViewController.labelText = self.textField.text;
+        }
+    }
+}
 @end
